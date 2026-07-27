@@ -1,0 +1,47 @@
+# ── Data ──────────────────────────────────────────────
+# Raw and processed data files should not be committed (large, and
+# the Olist dataset is publicly available on Kaggle for anyone to download)
+data/raw/
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+
+# ── Jupyter ───────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ── Power BI ──────────────────────────────────────────
+# .pbix files can be large and contain cached data/credentials —
+# keep them out of git and share via a release/drive link instead if needed
+*.pbix
+*.pbit
+
+# ── Credentials / secrets ─────────────────────────────
+.env
+*.env
+config.ini
+secrets.yaml
+*password*
+*credentials*
+
+# ── OS / editor junk ──────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ── Exported outputs (keep repo lean — regenerate instead of committing) ──
+outputs/
+*.log
