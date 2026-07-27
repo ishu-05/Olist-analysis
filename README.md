@@ -10,7 +10,7 @@ Most public analyses of the Olist dataset treat revenue, logistics, and customer
 
 ## Dashboard
 
-![Dashboard preview](docs/dashboard.pdf)
+![Dashboard preview](dashboard/dashboard.pdf)
 
 *(Power BI dashboard — pages covering revenue overview, delay & satisfaction, repeat purchase impact, exposure quantification, and seller/regional localization.)*
 
